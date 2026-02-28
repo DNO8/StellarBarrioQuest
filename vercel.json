@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/.well-known/stellar.toml",
+      "destination": "/.well-known/stellar.toml"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/.well-known/stellar.toml",
+      "headers": [
+        { "key": "Content-Type", "value": "text/plain" }
+      ]
+    }
+  ]
+}
